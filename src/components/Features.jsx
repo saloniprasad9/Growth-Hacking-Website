@@ -15,16 +15,16 @@ const Features = () => {
             <img src={gif1} alt='gif1' className='h-[100%] w-[100%] relative z-[5]'/> 
           </div>
           <div className={layout.sectionInfo}>
-            <h2 className={` text-[#bbd231] font-dm text-[25px]`}>WEEKLY LIVE Q&A Sessions</h2>
-            <p className={`${styles.paragraph} max-w-[460px] mt-5 text-[#C0C0C0] text-[17px] font-dm`}>
+            <h2 className={` text-[#bbd231] font-dm text-[25px] font-bold`}>WEEKLY LIVE Q&A Sessions</h2>
+            <p className={`${styles.paragraph} max-w-[460px] mt-5 text-[#C0C0C0] text-[17px] font-bold font-dm`}>
               Have doubts about the program content or need guidance to fast-track your marketing career or facing roadblocks while scaling up your brand?I got you covered. Every week I will come LIVE and answer any question you through at me LIVE.
             </p>
           </div>
         </section>
         <section className={`${layout.sectionReverse} flex flex-row`}>
           <div className={layout.sectionInfo}>
-            <h2 className={` text-[#bbd231] font-dm text-[25px]`}>WEEKLY MASTERCLASSES by Industry Experts</h2>
-            <p className={`${styles.paragraph} max-w-[460px] mt-5 text-[#C0C0C0] text-[17px] font-dm`}>
+            <h2 className={` text-[#bbd231] font-dm text-[25px] font-bold`}>WEEKLY MASTERCLASSES by Industry Experts</h2>
+            <p className={`${styles.paragraph} max-w-[460px] mt-5 text-[#C0C0C0] text-[17px] font-bold font-dm`}>
             Why just learn from me, when you can learn from my friends and mentors too?<br/>Every week learn from marketing ninjas who have worked with brands like Accel, PitchGround, RazorPay, Springworks, and more.
             </p>
           </div>
@@ -37,16 +37,16 @@ const Features = () => {
             <img src={gif3} alt='gif3' className='h-[100%] w-[100%] relative z-[5]'/> 
           </div>
           <div className={layout.sectionInfo}>
-            <h2 className={` text-[#bbd231] font-dm text-[25px]`}>ON-DEMAND CONTENT TRACK</h2>
-            <p className={`${styles.paragraph} max-w-[460px] mt-5 text-[#C0C0C0] text-[17px] font-dm`}>
+            <h2 className={` text-[#bbd231] font-dm text-[25px] font-bold`}>ON-DEMAND CONTENT TRACK</h2>
+            <p className={`${styles.paragraph} max-w-[460px] mt-5 text-[#C0C0C0] text-[17px] font-bold font-dm`}>
               We know coming LIVE daily to learn can be difficult. Hence I have created the on-demand video track where you can learn the most important concepts required by spending the least amount of time.<br/>Every week, study the video content and then come up with your doubts in the QnA session.
             </p>
           </div>
         </section>
         <section className={`${layout.sectionReverse} flex flex-row`}>
           <div className={layout.sectionInfo}>
-            <h2 className={` text-[#bbd231] font-dm text-[25px]`}>JAMMING AND NETWORKING SESSIONS</h2>
-            <p className={`${styles.paragraph} max-w-[460px] mt-5 text-[#C0C0C0] text-[17px] font-dm`}>
+            <h2 className={` text-[#bbd231] font-dm text-[25px] font-bold`}>JAMMING AND NETWORKING SESSIONS</h2>
+            <p className={`${styles.paragraph} max-w-[460px] mt-5 text-[#C0C0C0] text-[17px] font-bold font-dm`}>
             Learning alone online is boring & tough.<br/>So, this program is structured in a model: Learn - Ask Questions - Discuss - Apply<br/>Hence every week, there will be a live session for you to discuss and share ideas with your peers, and jam on different problem statements so that you can meet people and learn together.
             </p>
           </div>
@@ -59,13 +59,13 @@ const Features = () => {
             <img src={gif5} alt='gif5' className='h-[100%] w-[100%] relative z-[5]'/> 
           </div>
           <div className={layout.sectionInfo}>
-            <h2 className={` text-[#bbd231] font-dm text-[25px]`}>COMMUNITY FOR LIFETIME</h2>
-            <p className={`${styles.paragraph} max-w-[460px] mt-5 text-[#C0C0C0] text-[17px] font-dm`}>
+            <h2 className={` text-[#bbd231] font-dm text-[25px] font-bold`}>COMMUNITY FOR LIFETIME</h2>
+            <p className={`${styles.paragraph} max-w-[460px] mt-5 text-[#C0C0C0] text-[17px] font-dm font-bold`}>
               You learn and grow best when you are surrounded by like-minded people: You will be made part of a community where you can network, share opportunities, and build relations.
             </p>
           </div>
         </section>
-        <button className='bg-[#bed827] w-[400px] h-[70px] font-semibold border border-r-6 border-round text-[#000000] text-semiBold rounded-[10px] items-center mt-8 text-dm text-[22px]'>Apply Now</button>
+        <button className='bg-[#bed827] w-[400px] h-[70px] font-bold font-dm border border-r-6 border-round text-[#000000] text-semiBold rounded-[10px] items-center mt-8 text-dm text-[22px]'>Apply Now</button>
         <p className='text-[15px] text-[#C0C0C0] mt-4'>Program starts on 10th Sept 2023</p>
         <img src={line} alt='line' className='mt-20 w-[300px] h-[2px]'/>
     </div>

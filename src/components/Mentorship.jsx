@@ -9,12 +9,12 @@ const Mentorship = () => {
             <h2 className={`${styles.heading2}`}>Don't do this mentorship</h2>
             <div className='items-center'>
                 {mentorships.map((mentorship, id) => (
-                    <div key={id} className='flex flex-col px-4 items-center bg-red_gradient rounded-[10px] w-[600px] h-[150px] border border-white mt-8'>
-                        <div className='flex flex-row mt-4'>
+                    <div key={id} className='flex flex-col px-4  items-center bg-red_gradient rounded-[10px] w-[600px] h-[150px] border border-white mt-8'>
+                        <div className='flex flex-row mt-4 space-x-2'>
                             <img src={mentorship.icon} alt='mentorship' className='w-[50px] h-[50px]'/>
                             <div className='flex flex-col space-y-4 mt-2'>
-                                <h2 className='text-white'>{mentorship.title}</h2>
-                                <p className='text-white'>{mentorship.content}</p>
+                                <h2 className='text-white font-dm font-bold text-[20px]'>{mentorship.title}</h2>
+                                <p className='text-white font-dm font-bold'>{mentorship.content}</p>
                             </div>
                         </div>
                     </div>

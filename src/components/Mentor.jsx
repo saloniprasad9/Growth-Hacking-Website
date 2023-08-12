@@ -6,13 +6,13 @@ import line from '../assets/621e160b9d0a4d49b289be58_Line 17.png';
 const Mentor = () => {
   return (
     <div className='flex flex-col justify-center items-center mt-40'>
-        <h2 className='font-bold text-white text-[40px]'>Co-Mentors</h2>
+        <h2 className='font-bold font-dm text-white text-[40px]'>Co-Mentors</h2>
         <div className='flex w-[350px] h-[550px] bg-green_gradient border-[1px] border-white justify-center rounded-[10px] mt-20'>
             <div className='flex flex-col'>
                 <img src={mentor} alt='mentor' className='w-[300px] h-[300px] mt-8'/>
                 <div className='leading-[30px]'>
-                    <p className='text-[white] font-semibold text-center'>Ishan Singh</p>
-                    <p className='text-[white] font-semibold text-center'>Growth Marketing Manager - <br/> Scripbox ; Growth Assistance - <br/> UpGrad & Fynd</p>
+                    <p className='text-[white] font-bold font-dm text-center'>Ishan Singh</p>
+                    <p className='text-[white] font-bold font-dm text-center'>Growth Marketing Manager - <br/> Scripbox ; Growth Assistance - <br/> UpGrad & Fynd</p>
                     <div className='flex flex-row justify-center items-center'>
                         <img src={scriptbox} alt='scriptbox' className='h-[30%] w-[30%]'/>
                         <img src={box} alt='box'  className='h-[60px] w-[60px]'/>

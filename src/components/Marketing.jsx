@@ -24,9 +24,9 @@ const Marketing = () => {
                 <img src={line1} alt='line1' className='ml-10 mt-10 h-[280px] w-[2px]'/>
             </div>
             <div className='flex flex-col space-y-2 ml-10 max-w-[350px]'>
-                <p className='text-white'>What is Growth Hacking?</p>
-                <p className='text-white'>Growth hacking is all about running experiments and creating strategies for the exponential growth of the company while spending as little as possible.</p>
-                <p className='text-white'>Funnel Breakdowns of Brands which are covered in the program</p>
+                <p className='text-white font-dm font-bold'>What is Growth Hacking?</p>
+                <p className='text-white font-dm '>Growth hacking is all about running experiments and creating strategies for the exponential growth of the company while spending as little as possible.</p>
+                <p className='text-white font-dm '>Funnel Breakdowns of Brands which are covered in the program</p>
                 <div className='flex flex-row space-x-10'>
                     <img src={hubspot} alt='hubspot' className='h-[50px] w-[50px]'/>
                     <img src={pubg} alt='pubg' className='h-[50px] w-[50px]'/>

@@ -13,13 +13,13 @@ const Footer = () => {
                 <img src={linkedin} alt='linkedin'/>
             </div>
             <div className='max-w-[510px]'>
-                <p className={`${styles.paragraph} text-white mt-6 text-center `}>
+                <p className={`${styles.paragraph} text-white mt-6 text-center font-bold font-dm `}>
                     For any support, please mail to hi@growthschool.io. Our support team will get back to you within 24 hours. The brands and companies that the instructors of growthschool are working or have worked, have no relation what so ever with Growthschool
                 </p> 
             </div>
         </div>
         <div className=' flex justify-center items-center bg-[#1e1c1c]'>
-            <p className={`${styles.paragraph} text-white mt-4 mb-4`}>©️ 2022 Growthschool.io. All rights reserved.</p>
+            <p className={`${styles.paragraph} text-white mt-4 mb-4 font-bold font-dm`}>©️ 2022 Growthschool.io. All rights reserved.</p>
         </div>
     </div>
   )
