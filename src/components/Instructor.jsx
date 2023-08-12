@@ -8,9 +8,9 @@ import logos from '../assets/Screenshot 2023-08-09 at 21-38-58 Growth Hacking.pn
 import line from '../assets/621e160b9d0a4d49b289be58_Line 17.png';
 const Instructor = () => {
   return (
-    <div className='flex flex-col justify-center items-center'>
+    <div className='flex flex-col justify-center items-center mt-20'>
         <h2 className={`${styles.heading2}`}>Instructed by</h2>
-        <div className='flex flex-row rounded-[8px] space-x-8 border-white border-[1px] bg-green_gradient2 h-[720px] w-[1000px] px-8 py-8'>
+        <div className='flex flex-row rounded-[8px] mt-10 space-x-8 border-white border-[1px] bg-green_gradient2 h-[720px] w-[1000px] px-8 py-8'>
             <img src={vaibhav} alt='vaibhav' className='w-[500px] h-[600px] rounded-[10px]'/>
             <div className='flex flex-col space-y-4'>
                 <h2 className={`${styles.heading2}`}>Vaibhav Sisinty</h2>
